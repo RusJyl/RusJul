@@ -5,7 +5,6 @@ namespace Git
      static void Main(string[] args)
     
         {
-         System.Console.WriteLine ("Hellio Git ");
          System.Console.WriteLine("Enter your  name: ");
          string name = Console.ReadLine();
          System.Console.WriteLine(name.Lenght); //debug line
