@@ -6,6 +6,11 @@ namespace Git
     
         {
          System.Console.WriteLine ("Hellio Git ");
+         System.Console.WriteLine("Enter your  name: ");
+         string name = Console.ReadLine();
+         System.Console.WriteLine(name.Lenght); //debug line
+         System.Console.WriteLine($"Hello {name}!");
+
         }
     }
 }
