@@ -1,15 +1,17 @@
-namespace Git
-{
-     class Git
-     {
-     static void Main(string[] args)
-    
-        {
-         System.Console.WriteLine("Enter your  name: ");
-         string name = Console.ReadLine();
-         System.Console.WriteLine(name.Lenght); //debug line
-         System.Console.WriteLine($"Hello {name}!");
+Using System;
 
-        }
+namespace Git
+  {
+  class Git
+  {
+     static void Main(string[] args)
+    {
+      System.Console.WriteLine("Enter your firast name: ");
+      string first_name = Console.ReadLine();
+      System.Console.WriteLine("Now enter your last name: ");
+      string last_name = Console.ReadLine();
+      System.Console.WriteLine($"Hello {first_name} {last_name}! ");
+
     }
+  }
 }
